@@ -21,8 +21,7 @@ createBtn.addEventListener("click", (e) => {
   }
 
   function setObject(key, value) {
-    let objKey = key;
-    userData[objKey] = value;
+    userData[key] = value;
   }
 
   const userInput = document.querySelectorAll("input");
