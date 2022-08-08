@@ -1,0 +1,29 @@
+main {
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-form-wrap {
+  display: flex;
+  border: 1px solid red;
+}
+
+.user-input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-card {
+  border: 2px solid red;
+  flex: 1;
+}
+
+.card-wrap {
+  border: 1px solid orange;
+  flex: 3;
+}
+
+.user-card {
+    border: 3px solid black;
+}
